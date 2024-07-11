@@ -1,0 +1,1 @@
+Paste your fire fox exe in this location

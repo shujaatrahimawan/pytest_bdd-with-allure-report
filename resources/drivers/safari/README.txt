@@ -1,0 +1,1 @@
+Paste your safari exe in this location
