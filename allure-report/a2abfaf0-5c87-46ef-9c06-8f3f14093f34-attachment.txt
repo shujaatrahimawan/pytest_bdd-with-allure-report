@@ -1,0 +1,5 @@
+After Step: When "the user select "Sydney" on "LocationDropDown""
+After Step: When "the user select "Hotel Creek" on "HotelDropDown""
+After Step: When "the user select "Standard" on "RoomsDropDown""
+After Step: When "the user select "2" on "RoomsNoDropDown""
+After Step: When "the user click on "SearchButton""
