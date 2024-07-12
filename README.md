@@ -1,9 +1,9 @@
 ## Installation
-## Install Python in Operating System
-## Install Allure in Operating System from the Allure Website
-## When Open project in VS code or any IDE MUST HAVE TO CREATE VIRTUAL ENVIRONMENT
-## Once You created the VIRTUAL ENVIRONMENT Install requiement.txt by using command 
-## pip install requirement.txt
+Install Python in Operating System
+Install Allure in Operating System from the Allure Website
+When Open project in VS code or any IDE ( MUST HAVE TO CREATE VIRTUAL ENVIRONMENT )
+Once You created the VIRTUAL ENVIRONMENT Install requirement.txt by using command 
+command: pip install requirement.txt
 
 
 ## Running Tests
@@ -15,26 +15,26 @@ Use the "-k" option to filter tests by tags.
 
 
 ## Before Running all Pytest 
-## command `allure generate`
+command: `allure generate`
 
 ## Run Pytest with Tag and Get Allure Report
-## command `pytest -m "masterCredentials" --alluredir=allure-report/`
-## detail  `pytest -m "[tag name]"        --alluredir=[directory where you want allure reports]`
+command: `pytest -m "sanity" --alluredir=allure-report/`
+detail:  `pytest -m "[tag name]"        --alluredir=[directory where you want allure reports]`
 
 ## View Allure Report in Browser
-## command `allure serve allure-report/`
-## detail  `allure serve [directory where you have allure reports]`
+command: `allure serve allure-report/`
+detail:  `allure serve [directory where you have allure reports]`
 
 ## Run Pytest with Tags Only
-## command `pytest -m "masterCredentials"`
-
+command: `pytest -m "sanity"`
+detail:  `pytest -m "[tag name]" 
 
 
 
 ## Run Pytest Combine Command
-## rmdir .\allure-report\;allure generate;pytest -m "SearchHotel" --alluredir=allure-report/ ;  allure serve allure-report/
+command: rmdir .\allure-report\;allure generate; pytest -m "sanity" --alluredir=allure-report/ ;  allure serve allure-report/
 
-## Help Text Keys
+## Help Text Keys (This codes can be used in selenium send text method)
 
     NULL = '\ue000'
     CANCEL = '\ue001'  # ^break
