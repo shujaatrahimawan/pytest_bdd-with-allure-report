@@ -54,7 +54,7 @@ Feature: B2) Hotel Reservation
     Then the user click on "search_hotel"
     Examples:
       | location     | hotel          | type          | no_of_rooms   |firstname|lastname|address               |ccNO            |CC_type|Exp_Month|Exp_Year|cc_cvv|
-      | Sydney       | Hotel Creek    | Standard      | 1             |Babar    |Bilal   |House#112 ABC Street1 |1234567890987654|AMEX   |1        |2031    |122   |
+      | Sydney       | Hotel Creek    | Standard      | 1             |Babar    |Bilal   |House#112 ABC Street1 |1234567890987654|AMEX   |1        |2025    |122   |
       | Melbourne    | Hotel Sunshine | Double        | 2             |Babar    |Bilal   |House#212 ABC Street2 |1234567890987654|AMEX   |2        |2026    |222   |
       | Brisbane     | Hotel Hervey   | Deluxe        | 3             |Babar    |Bilal   |House#312 ABC Street3 |1234567890987654|AMEX   |3        |2027    |322   |
       | Adelaide     | Hotel Cornice  | Super Deluxe  | 4             |Babar    |Bilal   |House#412 ABC Street4 |1234567890987654|AMEX   |4        |2028    |422   |
