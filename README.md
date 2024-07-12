@@ -33,7 +33,7 @@ command detail:  `pytest -m "[tag name]`
 
 ## Run Pytest Combine Command
 command: `allure generate --clean; pytest -m "sanity" --alluredir=allure-report/;  allure serve allure-report/`<br />
-command detail:  `This command is combination of three commands these commands seperate by terminal sign ";"`<br />
+command detail:  `This command is combination of three commands these commands seperate by terminator sign ";"`<br />
 `First Command will generate the allure report directory and create the necessary file which need in allure report`<br />
 `Second Command will run the test which having tag sanity`<br />
 `Third command will run in the end which open the allure-report` 
