@@ -1,9 +1,9 @@
 ## Installation
-Install Python in Operating System
-Install Allure in Operating System from the Allure Website
-When Open project in VS code or any IDE ( MUST HAVE TO CREATE VIRTUAL ENVIRONMENT )
-Once You created the VIRTUAL ENVIRONMENT Install requirement.txt by using command 
-command: pip install requirement.txt
+Install Python in Operating System Global<br />
+Install Allure in Operating System Global from the Allure Website<br />
+When Open project in VS code or any IDE ( MUST HAVE TO CREATE VIRTUAL ENVIRONMENT )<br />
+Once You created the VIRTUAL ENVIRONMENT Install requirement.txt by using command <br />
+command: `pip install requirement.txt`
 
 
 ## Running Tests
@@ -13,26 +13,30 @@ If you are using `pipenv`, then run `pipenv run python -m pytest`.
 Use the "-k" option to filter tests by tags.
 
 
-
+## Note: All Command Below Will Run Under Virtual Environment
 ## Before Running all Pytest 
-command: `allure generate`
-
+command: `allure generate`<br />
+detail:  `It will create the allure-report directory along with the necessary file for allue report`
 ## Run Pytest with Tag and Get Allure Report
-command: `pytest -m "sanity" --alluredir=allure-report/`
+command: `pytest -m "sanity" --alluredir=allure-report/`<br />
 detail:  `pytest -m "[tag name]"        --alluredir=[directory where you want allure reports]`
 
 ## View Allure Report in Browser
-command: `allure serve allure-report/`
+command: `allure serve allure-report/`<br />
 detail:  `allure serve [directory where you have allure reports]`
 
 ## Run Pytest with Tags Only
-command: `pytest -m "sanity"`
-detail:  `pytest -m "[tag name]" 
+command: `pytest -m "sanity"`<br />
+command detail:  `pytest -m "[tag name]` 
 
 
 
 ## Run Pytest Combine Command
-command: rmdir .\allure-report\;allure generate; pytest -m "sanity" --alluredir=allure-report/ ;  allure serve allure-report/
+command: `allure generate --clean; pytest -m "sanity" --alluredir=allure-report/;  allure serve allure-report/`<br />
+command detail:  `This command is combination of three commands these commands seperate by terminal sign ";"`<br />
+`First Command will generate the allure report directory and create the necessary file which need in allure report`<br />
+`Second Command will run the test which having tag sanity`<br />
+`Third command will run in the end which open the allure-report` 
 
 ## Help Text Keys (This codes can be used in selenium send text method)
 
