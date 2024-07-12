@@ -1,5 +1,5 @@
 Feature: Z1) Logout and close browser
 
-@SearchHotel2
+@sanity @regression
   Scenario: Z) Log out React Website
     Given Close Website

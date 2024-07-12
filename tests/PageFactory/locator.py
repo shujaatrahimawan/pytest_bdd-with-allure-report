@@ -43,3 +43,4 @@ cc_exp_month = {'type': By.ID, 'locator': 'cc_exp_month'}
 cc_exp_year = {'type': By.ID, 'locator': 'cc_exp_year'}
 cc_cvv = {'type': By.ID, 'locator': 'cc_cvv'}
 book_now = {'type': By.ID, 'locator': 'book_now'}
+search_hotel = {'type': By.ID, 'locator': 'search_hotel'}

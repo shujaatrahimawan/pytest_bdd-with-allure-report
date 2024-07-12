@@ -1,7 +1,8 @@
 Feature: A1) Login Feature
 
-  @SearchHotel
+  @sanity @regression
   Scenario Outline: A) Login in Website
+    Given the default url "https://adactinhotelapp.com/"
     Given Open Website with "https://adactinhotelapp.com/"
     When the user enter "<username>" with "LoginEmailField"
     When the user enter "<password>" with "LoginPasswordField"

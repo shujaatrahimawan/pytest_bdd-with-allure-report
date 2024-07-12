@@ -1,6 +1,0 @@
-the path is : E:/UniversityProject/pytest_bdd
-The executable path is : E:/UniversityProject/pytest_bdd/resources/drivers/chromedriver.exe
-After Step: Given "Open Website with "https://adactinhotelapp.com/""
-After Step: When "the user enter "shujaatrahim" with "LoginEmailField""
-After Step: When "the user enter "85333W" with "LoginPasswordField""
-After Step: When "the user click on "LoginSubmitButton""
